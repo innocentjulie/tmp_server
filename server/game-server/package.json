@@ -1,0 +1,21 @@
+{
+    "name":"server",
+    "version":"0.0.1",
+    "private":false,
+    "dependencies":{
+        "pomelo":">=1.2.0",
+        "pomelo-logger": ">=0.0.3",
+        "crc":">=0.0.1",
+        "generic-pool":"=2.5.4",
+        "pomelo-sync-plugin":">=0.0.1",
+        "node-xlsx":">=0.0.1",
+        "sanitizer":">=0.0.1",
+        "mysql":">=0.0.1",
+        "jsftp":">=0.0.1",
+        "concat-stream":">=0.0.1",
+        "async":">=0.0.1",
+        "nodemailer":">=0.7.1",
+        "urllib":">=2.9.1"
+    }
+}
+

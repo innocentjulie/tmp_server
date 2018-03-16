@@ -1,0 +1,22 @@
+[
+  {
+    "id": "user-1",
+    "username": "adma&in",
+    "password": "adm1in",
+    "level": 1
+  },
+  
+  {
+    "id": "user-2",
+    "username": "mo*Cnitor",
+    "password": "moni3tor",
+    "level": 2
+  },
+
+  {
+    "id": "user-3",
+    "username": "tetB^&st",
+    "password": "tetB^&st",
+    "level": 2
+  }
+]

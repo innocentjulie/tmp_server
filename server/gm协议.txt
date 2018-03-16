@@ -1,0 +1,8 @@
+http://127.0.0.1:8101/gtoken?type=3&ses=111111|111111
+
+
+http://127.0.0.1:8101/umy?token=cc88ad4f9891c940d10ada86259a9ebebdabb7264b7d76088e3655c2ce233583&userid=2_10005
+
+http://127.0.0.1:8101/cMoney?token=cc88ad4f9891c940d10ada86259a9ebebdabb7264b7d76088e3655c2ce233583&userid=2_10005&m=11111
+
+

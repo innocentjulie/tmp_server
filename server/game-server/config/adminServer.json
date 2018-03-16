@@ -1,0 +1,55 @@
+[
+    {
+        "type": "crossdomain",
+        "token": "agarxhqb98rpa#fT%unpagkjwlaw3ruxnpaagl29w4rxn"
+    },
+    {
+        "type": "connector",
+        "token": "agarxhqb98rpa#fT%unpagkjwlaw3ruxnpaagl29w4rxn"
+    },
+    {
+        "type": "dealer",
+        "token": "agarxhqb98rpa#fT%unpagkjwlaw3ruxnpaagl29w4rxn"
+    },
+    {
+        "type": "dealerdb",
+        "token": "agarxhqb98rpa#fT%unpagkjwlaw3ruxnpaagl29w4rxn"
+    },
+
+    {
+        "type": "db",
+        "token": "agarxhqb98rpa#fT%unpagkjwlaw3ruxnpaagl29w4rxn"
+    },
+    {
+        "type": "hall",
+        "token": "agarxhqb98rpa#fT%unpagkjwlaw3ruxnpaagl29w4rxn"
+    },
+    {
+        "type": "qutota",
+        "token": "agarxhqb98rpa#fT%unpagkjwlaw3ruxnpaagl29w4rxn"
+    },
+    {
+        "type": "login",
+        "token": "agarxhqb98rpa#fT%unpagkjwlaw3ruxnpaagl29w4rxn"
+    },
+    {
+        "type": "regist",
+        "token": "agarxhqb98rpa#fT%unpagkjwlaw3ruxnpaagl29w4rxn"
+    },
+    {
+        "type": "gm",
+        "token": "agarxhqb98rpa#fT%unpagkjwlaw3ruxnpaagl29w4rxn"
+    },
+    {
+        "type": "rootgame",
+        "token": "agarxhqb98rpa#fT%unpagkjwlaw3ruxnpaagl29w4rxn"
+    },
+    {
+        "type": "playerbjl",
+        "token": "agarxhqb98rpa#fT%unpagkjwlaw3ruxnpaagl29w4rxn"
+    },
+    {
+        "type": "playerlh",
+        "token": "agarxhqb98rpa#fT%unpagkjwlaw3ruxnpaagl29w4rxn"
+    }
+]

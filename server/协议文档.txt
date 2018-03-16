@@ -1,0 +1,91 @@
+http://127.0.0.1:8001/regist?acc=8888888&pwd=123456
+http://127.0.0.1:8001/nUser?token=6fbb9ade50c4029abe3028aa62b2cabfab0c0e682e340d0dcf7654eac92c3a06
+
+http://127.0.0.1:8002/token?type=0&ses=8888888|123456
+
+
+
+
+
+
+
+socket 
+connector.handler.entry
+参数 token
+
+
+游戏列表
+
+hall.handler.GList // request
+
+
+
+订阅游戏
+
+hall.handler.subscriptGames // notify
+
+游戏类型 gid  // 1 百家乐  2 龙虎
+桌子id  deskids
+
+// 获取限红
+hall.handler.GQuto
+桌子id deskid
+
+// 进入游戏
+
+playerXX.handler.entry  // 1 bjl 2 lh
+gid: 1 2
+did :// 桌子id
+
+
+// 下注
+
+playerXX.handler.bet  // 1 bjl 2 lh
+p: 位置 
+m: 钱币
+
+// 离开
+
+playerXX.handler.leave  // 1 bjl 2 lh
+
+
+
+
+
+/// 推送
+initDeskInfo  /// 初始化桌子信息
+updateDeskInfo  /// 初始化桌子信息
+startBet // 开始下注
+endBet  // 下注结束
+ShowOneCard // 发牌
+setRes // 展示结果
+ReSendCard  // 重新发牌 不一定用
+onGameInfo //　更新奖池　在线人数
+clearRoom //　结算完成
+
+betResault  [桌子 id,{位置:钱 }   ]
+
+push:{
+    startBet:{xxxx}
+}
+push:{
+    endBet:{xxxx}
+}
+push:{
+    ShowOneCard:{xxxx}
+}
+
+{
+    限红id:{
+            seat:0
+             mix:xxx,
+                max:xxx
+            },
+     限红id:
+     {
+        seat:0
+         mix:xxx,
+          max:xxx
+          },
+}
+

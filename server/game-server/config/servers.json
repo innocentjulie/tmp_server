@@ -1,0 +1,51 @@
+{
+  "development":{
+    "crossdomain": [
+      {"id": "crossdomain-1", "host": "127.0.0.1", "port": 3040}
+    ],
+    "connector": [
+      {"id": "connector-1", "host": "127.0.0.1", "port": 3050, "clientHost": "115.231.218.63", "clientPort": 3000, "frontend": true}
+    ],
+    "dealer": [
+      {"id": "dealer-1", "host": "127.0.0.1", "port": 3150, "clientHost": "115.231.218.63", "clientPort": 3100, "frontend": true}
+    ],
+
+    "dealerdb": [
+      {"id":"dealerdb-1","host":"127.0.0.1","port":3400}
+    ],
+    "regist": [
+      {"id":"regist-1","host":"127.0.0.1","port":3250,"httpPort":8001,"name":"regist"}
+    ],
+    "login": [
+      {"id":"login-1","host":"127.0.0.1","port":3260,"httpPort":8002,"name":"login"}
+    ],
+    "gm": [
+      {"id":"gm-1","host":"127.0.0.1","port":3360,"httpPort":8101,"name":"login"}
+    ],
+    "hall": [
+      {"id":"hall-1","host":"127.0.0.1","port":3350}
+    ],
+    "qutota": [
+      {"id": "qutota-1", "host": "127.0.0.1", "port": 3340}
+    ],
+
+    "db": [
+      {"id":"db-1","host":"127.0.0.1","port":3500},
+      {"id":"db-2","host":"127.0.0.1","port":3501}
+    ],
+
+    "rootgame": [
+      {"id":"rootgame-1","host":"127.0.0.1","port":3600}
+    ],
+    "playerbjl": [
+      {"id":"playerbjl-1","host":"127.0.0.1","port":3601},
+      {"id":"playerbjl-2","host":"127.0.0.1","port":3602}
+    ],
+    "playerlh": [
+      {"id":"playerlh-1","host":"127.0.0.1","port":3701}
+    ]
+  },
+  "production":{
+
+  }
+}
